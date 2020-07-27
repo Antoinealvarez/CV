@@ -1,15 +1,24 @@
+
+
 body {
-    margin: 0px;
+    margin: auto;
+    max-width: 1000px;
+    
    }
+
 #blocpage {
     display: flex ;
     font-family: 'Roboto', sans-serif;
+    
 }
-
+.icons{
+    color: #76FF03;
+   margin-right: 10px;
+}
 
 #block1 {
     background-color: #76FF03;
-    width: 20%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,7 +34,8 @@ body {
     max-height: 200px;
     max-width: 200px;
     border-radius: 100px;
-    box-shadow: 1px 1px 12px #555;
+    border: solid gray;
+  
    
 }
 
@@ -46,7 +56,9 @@ body {
 }
 #moi p
 {
- margin: 30px;
+    padding-right: 3.5em;
+	padding-left: 3.5em;
+	text-align:justify;
 
 
 }
@@ -55,9 +67,16 @@ body {
     justify-content: space-around;
     margin: 20px;
 }
+.logo_border{
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
 
 main {
-    padding: 20px;
+    padding-top: 1em;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 header {
@@ -94,11 +113,23 @@ header {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    
+   
+   
 }
+
+	.element2{
+        display: flex;
+        justify-content: space-around;
+       margin-bottom: 3em;
+
+    }
 
 .dates {
     min-width: 250px;
     display: flex;
+  
+   
    
   
 }
@@ -110,9 +141,58 @@ header {
 
 main p {
     max-width: 600PX;
+    font-size: smaller;
   
 }
 
 .directeur {
     font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+    #blocpage {
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    #block1 {
+        flex-direction: row-reverse;
+        width: 100%;
+    }
+
+    .element {
+        flex-direction: column;
+    }
+
+    .dates {
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+
+    #loisirs,
+    #apropos,
+    #photo {
+        display: none;
+    }
+
+    #recommandations .element {
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 480px) {
+    header {
+        margin-bottom: 40px;
+        font-size: 10px;
+    }
+     
+    main h2 {
+        font-size: 130%;
+    }
+}
+
+@media all and (max-width: 380px){
+    h1{
+        font-size: 18px;
+    }
 }
