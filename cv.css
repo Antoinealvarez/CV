@@ -112,7 +112,7 @@ header {
 .element {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    
     
    
    
@@ -152,16 +152,17 @@ main p {
 @media all and (max-width: 1000px) {
     #blocpage {
         width: 100%;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
+ 
 
     #block1 {
-        flex-direction: row-reverse;
+        flex-direction: column;
         width: 100%;
     }
 
     .element {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .dates {
@@ -169,11 +170,8 @@ main p {
         margin-bottom: 20px;
     }
 
-    #loisirs,
-    #apropos,
-    #photo {
-        display: none;
-    }
+  
+    
 
     #recommandations .element {
         text-align: center;
