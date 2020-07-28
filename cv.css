@@ -3,7 +3,7 @@
 body {
     margin: auto;
     max-width: 1000px;
-    
+    max-height: 10px;
    }
 
 #blocpage {
@@ -120,8 +120,12 @@ header {
 
 	.element2{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-around ;
        margin-bottom: 3em;
+       padding-right: 10%;
+    
+       
+     
 
     }
 
@@ -161,7 +165,12 @@ main p {
         width: 100%;
     }
 
-    .element {
+    .element  {
+        flex-direction: column-reverse;
+    
+    }
+    .element2
+    {
         flex-direction: column-reverse;
     }
 
@@ -173,24 +182,29 @@ main p {
   
     
 
-    #recommandations .element {
+    #recommandations .element  {
         text-align: center;
     }
 }
 
 @media all and (max-width: 480px) {
     header {
-        margin-bottom: 40px;
-        font-size: 10px;
+        margin-bottom: 20px;
+        font-size: 20px;
     }
      
     main h2 {
-        font-size: 130%;
+        font-size: 110%;
+      
     }
+main
+{
+    left: auto;
+}
 }
 
 @media all and (max-width: 380px){
     h1{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
