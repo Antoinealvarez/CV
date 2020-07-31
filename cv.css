@@ -43,6 +43,7 @@ body {
     margin-left: 30px;
 }
 
+
 #block1 h2 {
     background-color: #404040;
     color: #76FF03;
@@ -66,17 +67,22 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+   
+
 }
 .logo_border{
     border: 2px solid black;
     border-radius: 50%;
     padding: 5px;
+   
+
 }
 
 main {
     padding-top: 1em;
-	padding-left: 60px;
-	padding-right: 60px;
+    padding-left: 60px;
+  
+	
 }
 
 header {
@@ -101,7 +107,7 @@ header {
     display: flex;
     align-items: baseline;
     border-bottom: 1px solid #76FF03;
-    margin: 40px 0 40px 0;
+   margin: 40px 0 0 0px;
 }
 
  main h2 {
@@ -112,32 +118,27 @@ header {
 .element {
     display: flex;
     justify-content: space-around;
-    
+    margin: 40px 0 40px 0;
     
    
    
 }
 
-	.element2{
-        display: flex;
-        justify-content: space-around ;
-       margin-bottom: 3em;
-       padding-right: 10%;
-    
-       
-     
-
-    }
-
+.element2{
+    display: flex;
+    justify-content: space-around ;
+   
+}
+#recommandations{
+    margin-bottom: 40px;
+}
 .dates {
     min-width: 250px;
-    display: flex;
-  
-   
-   
-  
+    display: flex;      
 }
-
+.antoine{
+    margin-right: 110px;
+}
  .entreprise {
     text-transform: uppercase;
     font-weight: bold;
@@ -152,6 +153,7 @@ main p {
 .directeur {
     font-weight: bold;
 }
+
 
 @media all and (max-width: 1000px) {
     #blocpage {
@@ -195,16 +197,15 @@ main p {
      
     main h2 {
         font-size: 110%;
-      
+      padding-left: none;
+
     }
-main
-{
-    left: auto;
-}
-}
+    
 
 @media all and (max-width: 380px){
-    h1{
+ 
+h1{
         font-size: 15px;
     }
+ 
 }
