@@ -1,10 +1,12 @@
-
-
 body {
     margin: auto;
     max-width: 1000px;
     max-height: 10px;
    }
+   .fas2{
+       color: #76FF03;
+   }
+ 
 
 #blocpage {
     display: flex ;
@@ -120,14 +122,12 @@ header {
     display: flex;
     justify-content: space-around;
     margin: 40px 0 40px 0;
-    
-   
-   
+      
 }
 
 .element2{
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-between ;
    
 }
 #recommandations{
@@ -137,9 +137,7 @@ header {
     min-width: 250px;
     display: flex;      
 }
-.antoine{
-    margin-right: 110px;
-}
+
  .entreprise {
     text-transform: uppercase;
     font-weight: bold;
@@ -198,9 +196,10 @@ main p {
      
     main h2 {
         font-size: 110%;
-      padding-left: none;
+     
 
     }
+}
     
 
 @media all and (max-width: 380px){
@@ -209,7 +208,6 @@ h1{
         font-size: 15px;
     }
  
-  body{
-      margin: 0px;
-  }
+ 
+ 
 }
