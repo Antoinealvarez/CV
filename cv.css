@@ -3,10 +3,10 @@ body {
     max-width: 1000px;
     max-height: 10px;
    }
-   .fas2{
+
+.fas2{
        color: #76FF03;
-   }
- 
+   } 
 
 #blocpage {
     display: flex ;
@@ -36,15 +36,13 @@ body {
     max-height: 200px;
     max-width: 200px;
     border-radius: 100px;
-    border: solid gray;
-  
+    border: solid gray; 
    
 }
 
 #contact p {
-    margin-left: 30px;
+   margin-left: 58px;
 }
-
 
 #block1 h2 {
     background-color: #404040;
@@ -55,37 +53,28 @@ body {
 }
 
 #moi {
-    flex-grow: 2;
-     
+    flex-grow: 2;    
 }
-#moi p
-{
+
+#moi p {
     padding-right: 3.5em;
 	padding-left: 3.5em;
-	text-align:justify;
-
-
+    text-align:justify;    
 }
 #logos {
     display: flex;
     justify-content: space-around;
     margin: 20px;
-   
-
 }
 .logo_border{
     border: 3px solid black;
     border-radius: 50%;
     padding: 10px;
-   
-
 }
 
 main {
     padding-top: 1em;
-    padding-left: 60px;
-  
-	
+    padding-left: 60px;	
 }
 
 header {
@@ -130,9 +119,11 @@ header {
     justify-content: space-between ;
    
 }
+
 #recommandations{
     margin-bottom: 40px;
 }
+
 .dates {
     min-width: 250px;
     display: flex;      
@@ -155,56 +146,51 @@ main p {
 
 
 @media all and (max-width: 1000px) {
-    #blocpage {
+#blocpage {
         width: 100%;
         flex-direction: column;
     }
  
 
-    #block1 {
+#block1 {
         flex-direction: column;
         width: 100%;
     }
 
-    .element  {
+.element  {
         flex-direction: column-reverse;
     
     }
-    .element2
-    {
+.element2 {
         flex-direction: column-reverse;
     }
 
-    .dates {
+.dates {
         flex-direction: row;
         margin-bottom: 20px;
     }
 
-  
-    
-
-    #recommandations .element  {
+#recommandations .element  {
         text-align: center;
     }
 }
 
 @media all and (max-width: 480px) {
-    header {
+ header {
         margin-bottom: 20px;
         font-size: 20px;
     }
      
-    main h2 {
+ main h2 {
         font-size: 110%;
      
-
     }
 }
     
 
 @media all and (max-width: 380px){
  
-h1{
+h1 {
         font-size: 15px;
     }
  
